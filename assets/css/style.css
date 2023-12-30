@@ -19,7 +19,16 @@
     margin: 0%;
     padding: 2%;
     color: white;
+}
+
+.name {
     text-decoration: underline;
+    font-size: 500%;
+
+}
+
+.subTitle {
+    text-align: end;
 }
 
 nav h1::after{
@@ -27,8 +36,30 @@ nav h1::after{
     content: "Taylor";
 }
 
-nav h1 {
-    font-size: xx-large;
+/*img {
+    display: block;
+    flex-direction: end;
+    width: 20%;
+    height: 15%;
+    
+} */
+
+
+ul {
+    display: block;
+    flex-direction: row;
+    text-align: end;
+}
+
+ul button {
+    display: inline-block;
+    margin-left: 2%;
+    border-radius: 25%;
+    background-color: var(--thirdColor);
+}
+
+ul button:hover {
+    background-color: #f9fbcc;
 }
 
 
