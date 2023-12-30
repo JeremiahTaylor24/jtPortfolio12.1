@@ -26,6 +26,8 @@
 .name {
     text-decoration: underline;
     font-size: 500%;
+    margin-bottom: -2%;
+    margin-top: 3%;
 
 }
 
@@ -33,28 +35,29 @@
     text-align: end;
 }
 
-div .abtMe {
-    color: white;
-    margin-left: 10%;
-    margin-right: 78%;
-    padding: 2%;
-    border: solid white 3px;
-    border-radius: 45%;
-
+.occupations{
+    margin-left: 5%;
+    color: var(--thirdColor)
 }
+
+
 
 nav h1::after{
     color: var(--thirdColor);
     content: "Taylor";
 }
 
-/*img {
+img {
     display: block;
     flex-direction: end;
-    width: 20%;
-    height: 15%;
-    
-} */
+    width: 30%;
+    margin-top: 5%;
+    height: 25%;
+    margin-left: 10%;
+    border-radius: 50%;
+    border: solid var(--navBarGreen) 4px;
+}
+
 
 
 ul {
