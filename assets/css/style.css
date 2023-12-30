@@ -16,11 +16,11 @@
 .nav1 {
     display: block;
     background-color: var(--navBarGreen);
-    margin: 0%;
+    margin: -1%;
+    margin-top: -1%;
     padding: 2%;
     color: white;
     border: solid black 5px;
-    border-radius: 5%;
 }
 
 .name {
@@ -36,8 +36,10 @@
 div .abtMe {
     color: white;
     margin-left: 10%;
+    margin-right: 78%;
     padding: 2%;
-    border: solid black 3px;
+    border: solid white 3px;
+    border-radius: 45%;
 
 }
 
