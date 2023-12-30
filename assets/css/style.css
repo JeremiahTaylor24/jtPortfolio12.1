@@ -1,6 +1,7 @@
 :root {
     --backgroundGreen: rgb(109, 164, 109);
-    --navBarGreen : rgb(55, 89, 55)
+    --navBarGreen: rgb(55, 89, 55);
+    --thirdColor: rgb(232, 192, 132);
 
 }
 
@@ -19,6 +20,15 @@
     padding: 2%;
     color: white;
     text-decoration: underline;
+}
+
+nav h1::after{
+    color: var(--thirdColor);
+    content: "Taylor";
+}
+
+nav h1 {
+    font-size: xx-large;
 }
 
 
