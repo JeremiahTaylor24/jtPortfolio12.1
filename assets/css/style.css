@@ -1,7 +1,7 @@
 :root {
-    --backgroundGreen: rgb(109, 164, 109);
-    --navBarGreen: rgb(55, 89, 55);
-    --thirdColor: rgb(232, 192, 132);
+    --backgroundGreen: #8F9779;
+    --navBarGreen: #4B6F44;
+    --thirdColor: #DADD98;
 
 }
 
@@ -30,6 +30,7 @@ nav h1::after{
 nav h1 {
     font-size: xx-large;
 }
+
 
 
 p {
