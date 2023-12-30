@@ -19,6 +19,8 @@
     margin: 0%;
     padding: 2%;
     color: white;
+    border: solid black 5px;
+    border-radius: 5%;
 }
 
 .name {
@@ -29,6 +31,14 @@
 
 .subTitle {
     text-align: end;
+}
+
+div .abtMe {
+    color: white;
+    margin-left: 10%;
+    padding: 2%;
+    border: solid black 3px;
+
 }
 
 nav h1::after{
