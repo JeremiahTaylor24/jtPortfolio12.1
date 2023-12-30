@@ -1,5 +1,24 @@
-* {
-    background-color: rgb(109, 164, 109);
+:root {
+    --backgroundGreen: rgb(109, 164, 109);
+    --navBarGreen : rgb(55, 89, 55)
+
+}
+
+
+
+
+
+.body {
+    background-color: var(--backgroundGreen);
+}
+
+.nav1 {
+    display: block;
+    background-color: var(--navBarGreen);
+    margin: 0%;
+    padding: 2%;
+    color: white;
+    text-decoration: underline;
 }
 
 
