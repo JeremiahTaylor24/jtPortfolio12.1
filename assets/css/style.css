@@ -2,6 +2,7 @@
     --backgroundGreen: #8F9779;
     --navBarGreen: #4B6F44;
     --thirdColor: #DADD98;
+    --textColor: white;
 
 }
 
@@ -10,6 +11,7 @@
 
 .body {
     background-color: var(--backgroundGreen);
+    color: var(--textColor);
 }
 
 .nav1 {
@@ -32,14 +34,18 @@
 
 }
 
-.subTitle {
-    text-align: end;
-}
-
 .occupations{
     margin-left: 5%;
     color: var(--thirdColor)
 }
+
+.subTitle {
+    text-align: end;
+}
+
+
+
+/* JUMP 1 = General selctors (not classes)*/
 
 
 
@@ -64,6 +70,7 @@ ul {
     display: block;
     flex-direction: row;
     text-align: end;
+    margin-bottom: 0%; 
 }
 
 ul a {
@@ -72,12 +79,16 @@ ul a {
     color: var(--thirdColor);
 }
 
+
+
 ul a:hover {
     color: #f7f8e4;
+    font-size: x-large;
 }
 
 ul a:visited {
     color: var(--backgroundGreen);
+    
 }
 
 
