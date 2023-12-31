@@ -66,15 +66,18 @@ ul {
     text-align: end;
 }
 
-ul button {
+ul a {
     display: inline-block;
     margin-left: 2%;
-    border-radius: 25%;
-    background-color: var(--thirdColor);
+    color: var(--thirdColor);
 }
 
-ul button:hover {
-    background-color: #f9fbcc;
+ul a:hover {
+    color: #f7f8e4;
+}
+
+ul a:visited {
+    color: var(--backgroundGreen);
 }
 
 
