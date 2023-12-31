@@ -16,11 +16,12 @@
 .nav1 {
     display: block;
     background-color: var(--navBarGreen);
-    margin: -1%;
-    margin-top: -1%;
+    margin: -1% -.5% 0% -.6%; 
     padding: 2%;
     color: white;
     border: solid black 5px;
+    border-right: none;
+    border-left: none;
 }
 
 .name {
@@ -49,7 +50,6 @@ nav h1::after{
 
 img {
     display: block;
-    flex-direction: end;
     width: 30%;
     margin-top: 5%;
     height: 25%;
