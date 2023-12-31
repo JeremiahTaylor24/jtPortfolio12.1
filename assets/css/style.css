@@ -39,9 +39,36 @@
     color: var(--thirdColor)
 }
 
-.subTitle {
-    text-align: end;
+.totalCard {
+    width: 125%;
+    
 }
+
+.myPic {
+    display: block;
+    width: 65%;
+    margin-top: 5%; 
+    margin-left: 30%;
+    border-radius: 50%;
+    border: solid var(--navBarGreen) 4px;
+}
+
+.subTitle {
+    margin-top: 10%;
+}
+
+.imgWelcome {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.welPort {
+    display: inline-block;
+    padding: 2%;
+    width: 170%;
+}
+
 
 
 
@@ -54,15 +81,6 @@ nav h1::after{
     content: "Taylor";
 }
 
-img {
-    display: block;
-    width: 30%;
-    margin-top: 5%;
-    height: 25%;
-    margin-left: 10%;
-    border-radius: 50%;
-    border: solid var(--navBarGreen) 4px;
-}
 
 
 
@@ -83,7 +101,6 @@ ul a {
 
 ul a:hover {
     color: #f7f8e4;
-    font-size: x-large;
 }
 
 ul a:visited {
