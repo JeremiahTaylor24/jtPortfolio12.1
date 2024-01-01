@@ -66,6 +66,14 @@
 
 }
 
+.bio {
+    padding: 5%;
+}
+
+.bio h2 {
+    color: var(--thirdColor);
+}
+
 .welPort {
     display: inline-block;
     padding: 2%;
@@ -98,10 +106,10 @@
 
 
 .woodPic {
-    width: 100%;
+    width: 25%;
     height: 0%;
-    opacity: .3;
-}
+    opacity: 0;
+} 
 
 .projectsContain {
     display: flex;
@@ -114,7 +122,7 @@
 
 .projectsContain div img {
     width: 175%;
-    margin-left: -90%;
+    margin-left: -110%;
     margin-top: 4%;
     padding: 5%;
     border: solid var(--thirdColor) 5px;
@@ -184,6 +192,17 @@ ul a:active {
     
 }
 
+footer {
+    display: block;
+    background-color: var(--navBarGreen);
+    padding: 2%;
+    margin: -1% -.5% -9% -.6%;
+    color: white;
+    border: solid var(--thirdColor) 5px;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
 
 
 
