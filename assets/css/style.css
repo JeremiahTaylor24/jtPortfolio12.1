@@ -57,6 +57,7 @@
 .subTitle {
     margin-top: 10%;
     font-size: xx-large;
+    color: var(--thirdColor);
 }
 
 .imgWelcome {
@@ -84,6 +85,10 @@
     margin-top: 5%;
 }
 
+.abtMe h2 {
+    color: var(--thirdColor);
+}
+
 .disneyPic {
     height: 80%;
     width: 25%;
@@ -92,14 +97,32 @@
 }
 
 
-
 .woodPic {
     width: 100%;
     height: 0%;
     opacity: .3;
-    
 }
 
+.projectsContain {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectsContain div {
+    margin-left: 19%;
+}
+
+.preWork {
+    display: flex;
+    flex-direction: column;
+}
+
+.preWork img {
+    width: 65%;
+    margin-left: -20%;
+    margin-top: 4%;
+   
+}
 
 
 
