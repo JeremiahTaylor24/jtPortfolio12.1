@@ -77,8 +77,10 @@
 }
 
 .abtMe {
-    display: flex;
-    flex-direction: row-reverse;
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 5%;
 }
 
 .disneyPic {
