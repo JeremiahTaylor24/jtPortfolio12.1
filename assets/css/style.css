@@ -112,17 +112,36 @@
     margin-left: 19%;
 }
 
+.projectsContain div img {
+    width: 175%;
+    margin-left: -90%;
+    margin-top: 4%;
+    padding: 1%;
+    border: solid var(--thirdColor) 2px;
+    border-radius: 15%;
+}
+
+.projectsContain div img:hover {
+    color: var(--backgroundGreen);
+}
+
+.projectsContain div h2 {
+    margin-left: -60%;
+    text-align: left;
+}
+
 .preWork {
     display: flex;
     flex-direction: column;
 }
 
+/*
 .preWork img {
     width: 65%;
     margin-left: -20%;
     margin-top: 4%;
    
-}
+}  */
 
 
 
@@ -162,6 +181,8 @@ ul a:active {
     color: var(--backgroundGreen);
     
 }
+
+
 
 
 
