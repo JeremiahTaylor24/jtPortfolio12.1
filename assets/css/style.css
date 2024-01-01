@@ -74,6 +74,7 @@
 
 .welPort p {
     font-size: large;
+    margin-top: -2.8%;
 }
 
 .abtMe {
@@ -90,18 +91,7 @@
     border-radius: 50%;
 }
 
-.abtMeText {
-    width: 50%;
-    text-align: center;
-    margin-top: 5%;
-}
 
-
-.abtMePic {
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-}
 
 .woodPic {
     width: 100%;
