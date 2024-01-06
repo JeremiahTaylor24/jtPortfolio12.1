@@ -67,11 +67,17 @@
 }
 
 .bio {
+    margin-top: 2%;
     padding: 5%;
+    border: solid 5px;
+    border-color: var(--thirdColor);
 }
 
 .bio h2 {
     color: var(--thirdColor);
+    text-align: center;
+    border: solid var(--thirdColor) 2px;
+    padding: 2%;
 }
 
 .welPort {
@@ -95,6 +101,7 @@
 
 .abtMe h2 {
     color: var(--thirdColor);
+    
 }
 
 .disneyPic {
