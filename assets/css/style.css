@@ -8,7 +8,6 @@
 
 
 
-
 .body {
     background-color: var(--backgroundGreen);
     color: var(--textColor);
@@ -95,13 +94,28 @@
 .abtMe {
     display: block;
     text-align: center;
-    font-size: x-large;
     margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: large;
 }
 
 .abtMe h2 {
     color: var(--thirdColor);
-    
+    font-size: xx-large;
+}
+
+.abtMe ul {
+    list-style: none;
+    display: block;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 0%; 
+}
+
+.abtMe ul span {
+    color: var(--thirdColor);
+    font-size: x-large;
+
 }
 
 .disneyPic {
@@ -209,6 +223,17 @@ footer {
     border-right: none;
     border-left: none;
     border-bottom: none;
+}
+
+footer h2 {
+    font-size: xx-large;
+    text-align: center;
+    margin-right: -2.1%;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
 }
 
 
